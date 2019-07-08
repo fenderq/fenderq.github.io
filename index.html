@@ -1,69 +1,223 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <head>
-<title>fenderq.github.io</title>
+<title>FenderQ</title>
 <meta charset="UTF-8">
+<meta name="author" content="Steven Roberts">
+<meta name="description" content="FenderQ">
+<meta name="keywords" content="FenderQ, Games, Alkonost, Universe64, Music, Guitar, Chiptune, Soundtracks, Technology, OpenBSD, Programming, fenderQbox">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="favicon.ico">
 <style>
 a{color:#08c}
-body{background-color:#fff;color:#000;font-family:Verdana,Geneva,sans-serif;margin:20px}
+body{background-color:#fff;color:#000;font-family:Verdana,Geneva,sans-serif;margin:0}
+div{margin:0;padding:20px}
 h1{color:#08c;font-family:Georgia,serif}
 h2{color:#000;font-family:Georgia,serif}
-hr{border-top:1px solid #ccc}
+img{height:auto;margin:auto;max-width:100%}
 q{color:#666}
+#header{background-color:#08c;color:#ececec}
+#header a,#header h1{color:#fff}
+#games{background-color:#ececec}
+#music{background-color:#f3f3f3}
+#technology{background-color:#f9f9f9}
+#contact{background-color:#fff}
+#footer{background-color:#000;color:#ececec}
+.screenshots{margin:0;padding:0;text-align:center}
+.screenshots img{margin:3px}
+.gs{width:250px;height:141px}
+.arachnia{background:url(images/games.jpg) 0 0}
+.bloodtype{background:url(images/games.jpg) -250px 0}
+.freerider{background:url(images/games.jpg) -500px 0}
+.hush{background:url(images/games.jpg) -750px 0}
+.spacepancake{background:url(images/games.jpg) 0 -141px}
+.pirates{background:url(images/games.jpg) -250px -141px}
+.loneshark{background:url(images/games.jpg) -500px -141px}
+.mondrian{background:url(images/games.jpg) -750px -141px}
+.evilspy{background:url(images/games.jpg) 0 -282px}
+.santasmasher{background:url(images/games.jpg) -250px -282px}
+.scoutmusic{background:url(images/games.jpg) -500px -282px}
+.seed{background:url(images/games.jpg) -750px -282px}
+.singalong{background:url(images/games.jpg) 0 -423px}
+.brokenbrain{background:url(images/games.jpg) -250px -423px}
+.toddlertunes{background:url(images/games.jpg) -500px -423px}
+.u64{background:url(images/games.jpg) -750px -423px}
+.smi{width:48px;height:48px}
+.facebook{background:url(images/socialmedia.png) 0 0}
+.email{background:url(images/socialmedia.png) -48px 0}
+.linkedin{background:url(images/socialmedia.png) -96px 0}
+.reddit{background:url(images/socialmedia.png) -144px 0}
+.twitter{background:url(images/socialmedia.png) -192px 0}
 </style>
 </head>
 <body>
-<h1>fenderq.github.io</h1>
-<h2>Curriculum vitae</h2>
-<ul>
-<li>
-Outreach Worker -
-<a href="cv/sroberts-outreach.odt">OpenDocument</a>,
-<a href="cv/sroberts-outreach.pdf">PDF</a>,
-<a href="cv/sroberts-outreach.txt">Text</a>
-</li>
-<li>
-Technical -
-<a href="cv/sroberts-technical.odt">OpenDocument</a>,
-<a href="cv/sroberts-technical.pdf">PDF</a>,
-<a href="cv/sroberts-technical.txt">Text</a>
-</li>
-</ul>
-<h2>OpenPGP</h2>
-<p>
-My public
-<a href="fenderq-pgp.asc">PGP key</a>
-is used for encryption and signing.
-You can verify the key based on fingerprint.
-</p>
-<pre>
-C16C 0751 3B77 C563 E062  F67A 90B1 94D2 7557 4594
-</pre>
-<h2>signify</h2>
-<p>
-My public
-<a href="fenderq-signify.pub">signify key</a>
-is used to verify cryptographic signatures.
-</p>
-<h2>SSH</h2>
-<p>
-My public
-<a href="fenderq-ssh-ed25519.pub">SSH key</a>
-is an
-<a href="https://en.wikipedia.org/wiki/EdDSA#Ed25519">Ed25519</a>
-key, which can be used to securely authenticate me with your systems.
-You can verify the key based on fingerprint.
-</p>
-<pre>
-3a:0b:e1:ba:bb:80:50:0e:85:6c:64:5f:a8:43:c2:8c (MD5)
-MNhcA2CW+ZqqJvWZ0JwdW1jO8GXIXajMh6ldmiByiYY (SHA256)
-</pre>
-<hr>
-<p>
-<a href="http://validator.w3.org/check?uri=https%3A%2F%2Ffenderq.github.io">HTML5</a> |
-<a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffenderq.github.io">CSS3</a>
-</p>
+<div id="header">
+	<div style="margin:0px;padding:40px;float:right;">
+	<img src="images/avatar.jpg" alt="Steven Roberts" width="300" height="300">
+	</div>
+	<h1>FenderQ</h1>
+	<p>
+		FenderQ is my pseudonym. My name is Steven Roberts. I am from
+		<a href="https://en.wikipedia.org/wiki/Victoria,_British_Columbia">Victoria, British Columbia</a>.
+	</p>
+	<p>
+		I am educated, experienced, and multi-talented.
+		You will find me actively producing software in the video game
+		industry, using my abilities as an artist, designer, musician,
+		and programmer. Producing excellent, robust software, from start
+		to finish, is what I know how to accomplish. Information
+		security and system administration are my other areas of
+		expertise.
+	</p>
+	<p>
+		My favourite walk in <a href="https://imgur.com/a/YQqRy">Cuthbert Holmes Park</a>,
+		provides me space, to keep ideas moving forward.
+	</p>
+</div>
+<div id="games">
+	<h1>Games</h1>
+	<p><q><em>You must not wait for your dreams to come true. You must make your dreams come true. I make games for a living.</em></q></p>
+	<h2>Universe64</h2>
+	<p>
+		This magical journey started when I made my first commercial
+		game <a href="universe64.html">Universe64</a>. My reddit post
+		<a href="https://www.reddit.com/r/gaming/comments/f1qi9/how_i_lived_my_dream_of_making_video_games/">how I lived my dream of making video games</a>
+		made gaming front page on release day.
+	</p>
+	<h2>Alkonost</h2>
+	<p>
+		<a href="https://fenderq.itch.io/alkonost">Alkonost</a> is an
+		arcade asteroids clone. It was made during the summer, while
+		working with Atari 2600 TIA audio chips. This game is inspired
+		by arcade games I grew up with during the 80s.
+	</p>
+	<h2>There and Back Again</h2>
+	<p>
+		So far I have made games on my own, with teams, for companies
+		and as a co-founder. I have made browser games, desktop games,
+		mobile games and social games. I have worked on adventure
+		games, bike games, christmas games, kids games, music games,
+		pirate games, psychedelic games, puzzle games, shark games,
+		space games, spider games, spy games, and vampire games.
+	</p>
+	<p>Here are some screenshots ...</p>
+	<div class="screenshots">
+	<img class="gs arachnia" src="images/t250.png" alt="Arachnia" width="250" height="141">
+	<img class="gs bloodtype" src="images/t250.png" alt="Blood Type" width="250" height="141">
+	<img class="gs freerider" src="images/t250.png" alt="Free Rider" width="250" height="141">
+	<img class="gs hush" src="images/t250.png" alt="Hush" width="250" height="141">
+	<img class="gs spacepancake" src="images/t250.png" alt="Intergalactic Space Pancake!" width="250" height="141">
+	<img class="gs pirates" src="images/t250.png" alt="Jake and the Never Land Pirates" width="250" height="141">
+	<img class="gs loneshark" src="images/t250.png" alt="Lone Shark" width="250" height="141">
+	<img class="gs mondrian" src="images/t250.png" alt="Mondrian" width="250" height="141">
+	<img class="gs evilspy" src="images/t250.png" alt="Project Evilspy II" width="250" height="141">
+	<img class="gs santasmasher" src="images/t250.png" alt="Santa Smasher" width="250" height="141">
+	<img class="gs scoutmusic" src="images/t250.png" alt="Scout's Music" width="250" height="141">
+	<img class="gs seed" src="images/t250.png" alt="Seed" width="250" height="141">
+	<img class="gs singalong" src="images/t250.png" alt="Sing Along with Us!" width="250" height="141">
+	<img class="gs brokenbrain" src="images/t250.png" alt="The Broken Brain" width="250" height="141">
+	<img class="gs toddlertunes" src="images/t250.png" alt="Toddler Rhythms" width="250" height="141">
+	<img class="gs u64" src="images/t250.png" alt="Universe64" width="250" height="141">
+	</div>
+</div>
+<div id="music">
+	<h1>Music</h1>
+	<p><q><em>The most important part for me is to express my thoughts, feelings, and experiences. The music becomes its own reward.</em></q></p>
+	<h2>Albums</h2>
+	<p>
+		My latest release is a chiptune LP titled
+		<a href="http://fenderq.bandcamp.com/album/health"><em>Health</em></a>,
+		which consists of 14 songs produced in 28 days for
+		<a href="http://fawm.org/">February Album Writing Month</a>.
+		You can find my music for sale and download at
+		<a href="https://fenderq.bandcamp.com/">fenderq.bandcamp.com</a>.
+		</p>
+	<h2>Guitar</h2>
+	<p>
+		My introduction to music was with a guitar. I grew up with
+		music in my family. I started playing in bands when I was a
+		teenager. By the time I finished high school, I was teaching
+		guitar at the local music store and playing live shows on
+		stage.
+	</p>
+	<p>
+		My primary guitar gear consists of a
+		<a href="vintage-guitar-experience.html">Road Worn '50s Stratocaster with '65 Princeton Reverb amplifier</a>,
+		a Simon &amp; Patrick Songsmith Parlor Sunburst, and a
+		La Patrie Concert classical guitar. I am usually found playing
+		blues or classical guitar around town.
+	</p>
+	<h2>Soundtracks</h2>
+	<p>
+		When I started making video games I became fascinated by the
+		production of electronic music. Much like the blues music I
+		have experienced, I sense an emotional quality to analog
+		synthesizer sounds.
+	</p>
+	<p>
+		I am currently using a Dave Smith Prophet '08 analog
+		synthesizer, <a href="http://renoise.com">Renoise</a> digital
+		audio workstation and Roland drum machines to produce my
+		soundtracks. Most of my tracks are inspired by chiptunes,
+		electronic music artists, and retro video games.
+	</p>
+</div>
+<div id="technology">
+	<h1>Technology</h1>
+	<p><q><em>The potential of new ideas and the opportunity to learn has kept me excited about technology all these years.</em></q></p>
+	<img style="float:right;" src="images/fenderQbox.png" width="300" height="348" alt="fenderQbox">
+	<h2>fenderQbox</h2>
+	<p>
+		In 2007 I created the first fenderQbox, a custom tailored
+		embedded wireless business solution. These are excellent for
+		office networks. The ability to customize it for your business
+		needs is one of its primary advantages. Monitoring your network
+		traffic with <a href="packet-filter-statistics.html">packet filter statistics</a>
+		is just one of its many benefits.
+	</p>
+	<h2>OpenBSD</h2>
+	<p>
+		I have been an <a href="https://www.openbsd.org/">OpenBSD</a>
+		user since 2001. It is a multi-platform 4.4BSD-based UNIX-like
+		operating system. I use it to do my web hosting, DNS, mail etc.
+		I am the creator of the <a href="files/release.sh">release building shell script</a>
+		as well as the <a href="pwp.html">pwp</a> password manager.
+		You can find additional <a href="https://github.com/fenderq/">cryptography tools</a>
+		on my GitHub page.
+	</p>
+	<h2>Programming</h2>
+	<p>
+		I started programming in BASIC on a Commodore VIC-20 in the
+		early 80s. My work has been made possible by some of the
+		following technical buzzwords. ActionScript,
+		<a href="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</a>,
+		Apache Flex, C, C++, <a href="http://useflashpunk.net/">FlashPunk</a>,
+		Git, Lua, <a href="https://love2d.org/">LÖVE</a>, Objective-C,
+		OpenGL, <a href="https://www.libsdl.org/">Simple DirectMedia Layer</a>
+		and iOS SDK.
+	</p>
+</div>
+<div id="contact">
+	<h1>Contact</h1>
+	<p>
+		Please feel free to contact me. I would love to hear from you.
+		You can connect with me using social media, although email
+		works best. I can also be found on the Internet Relay Chat
+		network <a href="https://webchat.freenode.net/">freenode.net</a>,
+		as FenderQ.
+	</p>
+	<p>
+	<a href="https://www.facebook.com/fenderq"><img class="smi facebook" src="images/t48.png" alt="Facebook" width="48" height="48"></a>
+	<a href="mailto:info@fenderq.com?subject=www.fenderq.com"><img class="smi email" src="images/t48.png" alt="Email" width="48" height="48"></a>
+	<a href="https://www.linkedin.com/in/fenderq"><img class="smi linkedin" src="images/t48.png" alt="LinkedIn" width="48" height="48"></a>
+	<a href="https://www.reddit.com/user/FenderQ/"><img class="smi reddit" src="images/t48.png" alt="Reddit" width="48" height="48"></a>
+	<a href="https://twitter.com/FenderQ"><img class="smi twitter" src="images/t48.png" alt="Twitter" width="48" height="48"></a>
+	</p>
+</div>
+<div id="footer">
+	Copyright &copy; 2001-2019 Steven Roberts |
+	<a href="https://validator.w3.org/check?uri=https%3A%2F%2Fwww.fenderq.com">HTML5</a> |
+	<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.fenderq.com">CSS3</a>
+</div>
 </body>
 </html>

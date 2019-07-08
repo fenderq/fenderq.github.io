@@ -1,0 +1,24 @@
+2018-11-03  Steven Roberts  <sroberts@fenderq.com>
+
+	* Fix build issues with latest OpenBSD compiler.
+	* Release version 2.4.1
+
+2017-01-25  Steven Roberts  <sroberts@fenderq.com>
+
+	* EFF's New Wordlists for Random Passphrases used for diceware
+	  https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
+	* Release version 2.3.0
+
+2016-11-07  Steven Roberts  <sroberts@fenderq.com>
+
+	* Power of two list for diceware
+	* Release version 2.2.0
+
+2016-07-26  Steven Roberts  <sroberts@fenderq.com>
+
+	* Added additional strict compiler options, resolved warnings
+	* Release version 2.1.1
+
+2016-01-01  Steven Roberts  <sroberts@fenderq.com>
+
+	* Release version 2.1.0

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<title>pwp</title>
+<meta charset="UTF-8">
+<meta name="author" content="Steven Roberts">
+<meta name="description" content="pwp password manager">
+<meta name="keywords" content="pwp, generate, passwords, OpenBSD">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<h1>pwp</h1>
+<p>pwp is a password manager.</p>
+<p>Passwords can be generated, stored and retrieved.</p>
+<h2 id="Features">Features</h2>
+<ul>
+<li>Password Generation
+<ul>
+<li>Generate passwords based on entropy (bits) strength</li>
+<li>Built in character sets
+<ul>
+<li>ANSI C <i>&lt;ctype.h&gt;</i> character sets</li>
+<li>Base56 for simplified visual, manual data entry</li>
+<li><a href="http://world.std.com/~reinhold/diceware.html">Diceware</a> passphrase (easy to remember)</li>
+</ul>
+</li>
+<li>Support for custom character sets</li>
+<li>Enforce character use password policy</li>
+<li>Verbose password entropy analysis</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Database Storage
+<ul>
+<li>Supports multiple export formats</li>
+<li>Password history recorded with ISO timestamps</li>
+<li>Efficient hash database access method</li>
+<li>bcrypt password-based key derivation function to unlock database</li>
+<li>Hash-based message authentication codes using SHA-512</li>
+<li>Data at rest encryption using AES 256</li>
+<li>Restricted system operations, pledge(2)</li>
+</ul>
+</ul>
+<h2 id="Files">Files</h2>
+<ul>
+<li><a href="files/pwp/pwp-2.4.1.tar.gz">pwp-2.4.1.tar.gz</a> source code (<a href="files/pwp/ChangeLog.txt">ChangeLog</a>)</li>
+</ul>
+<code>
+SHA256 (pwp-2.4.1.tar.gz) = 3bb853c69498557b970e98bf09eac3760388f197fbda3151c586eebe47bcfd09
+</code>
+<h2 id="FAQ">Frequently Asked Questions</h2>
+<h3>1) What randomization method is used?</h3>
+<p>Randomization is based on <a href="http://www.openbsd.org/papers/hackfest2014-arc4random/index.html">arc4random</a>.</p>
+<h3>2) Where is the documentation?</h3>
+<p>Documentation is provided in the <a href="files/pwp/pwp.1.html">pwp man page</a>.</p>
+<h3>3) What license does pwp use?</h3>
+<p>The pwp utility uses the ISC license.</p> 
+<h3>4) Which operating systems are supported?</h3>
+<p>The pwp utility is designed and tested to run on <a href="http://www.openbsd.org/">OpenBSD</a>.</p>
+<h3>5) How secure are the passwords in the database?</h3>
+<p>Ultimately, only you can decide that. The following points are worth noting.</p>
+<ul>
+<li>The pwp utility uses industry standard cryptography</li>
+<li>The source code has been reviewed by academics</li>
+<li>Zero password discoveries from the <a href="files/pwp/pwp.db.gz">pwp database sample</a></li>
+</ul>
+<h2 id="Links">Links</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Password_strength">Password strength</a> on wikipedia</li>
+<li>Excellent <a href="http://xkcd.com/936/">password strength comic</a> on xkcd</li>
+<li><a href="http://boingboing.net/2014/02/25/choosing-a-secure-password.html">Choosing Secure Passwords</a> by Bruce Schneier</li>
+</ul>
+<hr>
+<div id="footer">
+Copyright &copy; 2001-2019 Steven Roberts |
+<a href="index.html">Index</a> |
+<a href="http://validator.w3.org/check?uri=referer">HTML5</a> |
+<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS3</a>
+</div>
+</body>
+</html>
