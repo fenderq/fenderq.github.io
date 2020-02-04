@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright (c) 2002-2019 Steven Roberts <sroberts@fenderq.com>
+# Copyright (c) 2002-2020 Steven Roberts <sroberts@fenderq.com>
 #
 # Permission to use, copy, modify, and distribute this software for any
 # purpose with or without fee is hereby granted, provided that the above
